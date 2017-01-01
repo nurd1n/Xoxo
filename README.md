@@ -14,9 +14,9 @@ XOXO merupakan auto bash script yang bisa digunakan untuk play video, download v
 - [ ] Record TV (*belum tersedia)
 
 ## Alat yang wajib diinstall (khusus windows)
-- [Git Bash >> https://git-scm.com/download/win]
-- [Python 3.5 atau 3.6 >> https://www.python.org/downloads/windows/]
-- [Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/]
+- Git Bash >> https://git-scm.com/download/win
+- Python 3.5 atau 3.6 >> https://www.python.org/downloads/windows/
+- Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/
 
 ## Instalasi utama
 Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tutorial di ...............
