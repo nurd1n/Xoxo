@@ -3,9 +3,9 @@
 # create folder
 mkdir -p download/musik
 mkdir -p download/video
-mkdir report
-mkdir video_awal
-mkdir video_akhir
+mkdir -p report
+mkdir -p video_awal
+mkdir -p video_akhir
 
 cd /
 clear && clear
