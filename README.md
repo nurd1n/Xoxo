@@ -14,17 +14,17 @@ XOXO merupakan auto bash script yang bisa digunakan untuk play video, download v
 - [ ] Record TV (*belum tersedia)
 
 ## Alat yang wajib diinstall (khusus windows)
-- [Git Bash] >> https://git-scm.com/download/win
-- [Python 3.5 atau 3.6] >> https://www.python.org/downloads/windows/
-- [Ffmpeg (Linking pilih shared)] >> https://ffmpeg.zeranoe.com/builds/
+- [Git Bash >> https://git-scm.com/download/win]
+- [Python 3.5 atau 3.6 >> https://www.python.org/downloads/windows/]
+- [Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/]
 
 ## Instalasi utama
 Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tutorial di ...............
 - `git clone -b xoxo https://github.com/nurd1n/nurd1n.github.io`
 
 ## Instalasi tambahan
-- [Windows : jalankan file install_windows.sh]
-- [Linux : jalankan file install_linux_ubuntu.sh]
+- Windows : jalankan file install_windows.sh
+- Linux : jalankan file install_linux_ubuntu.sh
 
 ## Cara menjalankan
 Klik 2 kali file xoxo.sh
@@ -49,6 +49,6 @@ Kontak, saran, pendapat dll bisa menghubungi saya di facebook : https://www.face
 
 ## Disclaimer
 Saya selaku penanggungjawab script menyatakan :
-- [Tidak ada file,command,virus atau program jahat yang membahayakan di dalam script]
-- [Perangkat editing video berupa ffmpeg, LEGAL dan GRATIS]
-- [Script download video/mp3 dan youtube uploader hanyalah command line bash dan bukan merupakan alat/perangkat utama]
+- Tidak ada file,command,virus atau program jahat yang membahayakan di dalam script
+- Perangkat editing video berupa ffmpeg, LEGAL dan GRATIS
+- Script download video/mp3 dan youtube uploader hanyalah command line bash dan bukan merupakan alat/perangkat utama
