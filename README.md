@@ -30,8 +30,8 @@ Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tut
 -- jalankan file install_linux_ubuntu.sh
 
 ## Cara menjalankan
-- Windows : Klik 2 kali file xoxo-w.sh
-- Linux : Jalankan di terminal ./xoxo-l.sh
+- Windows : Klik 2 kali file `xoxo-w.sh`
+- Linux : Jalankan di terminal `./xoxo-l.sh`
 
 ## Update
 Untuk update jalankan file update.sh
