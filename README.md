@@ -35,6 +35,7 @@ Untuk update jalankan file update.sh
 ## Credits
 - [Youtube-dl](https://github.com/rg3/youtube-dl)
 - [Youtube-upload](https://github.com/tokland/youtube-upload)
+- [Ffmpeg](https://ffmpeg.org/)
 
 ## Distributor script
 - [Nurdianto](https://www.facebook.com/nurdiantocyk)
