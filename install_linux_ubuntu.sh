@@ -1,5 +1,8 @@
 ﻿# Ubuntu Willy (15.10)
 
+# dos2unix
+sed -i 's/\r$//' *.sh
+
 # create folder
 mkdir -p download/musik
 mkdir -p download/video
