@@ -24,7 +24,10 @@ Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tut
 
 ## Instalasi tambahan
 - Windows : jalankan file install_windows.sh
-- Linux : jalankan file install_linux_ubuntu.sh
+- Linux :
+-- berikan permission file : `chmod 755 *.sh`
+-- ubah dos to unix : `sed -i 's/\r$//' *.sh`
+-- jalankan file install_linux_ubuntu.sh
 
 ## Cara menjalankan
 Klik 2 kali file xoxo.sh
