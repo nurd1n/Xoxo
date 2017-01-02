@@ -37,7 +37,7 @@ Untuk update jalankan file update.sh
 - [Youtube-upload](https://github.com/tokland/youtube-upload)
 - [Ffmpeg](https://ffmpeg.org/)
 
-## Distributor script
+## Contributors script
 - [Nurdianto](https://www.facebook.com/nurdiantocyk)
 - [Ling Bimantara](https://www.facebook.com/Syehlung)
 - [Vanz](https://www.facebook.com/0x0010)
