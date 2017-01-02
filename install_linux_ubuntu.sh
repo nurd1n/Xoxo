@@ -1,7 +1,4 @@
-﻿# Ubuntu Willy (15.10)
-
-# dos2unix
-sed -i 's/\r$//' *.sh
+# Ubuntu Willy (15.10)
 
 # create folder
 mkdir -p download/musik
