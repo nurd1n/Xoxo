@@ -1,0 +1,2 @@
+Bagi pengguna linux silahkan download ffmpeg versi static di https://www.johnvansickle.com/ffmpeg/.
+Kemudian copy file ffmpeg ke folder Xoxo
