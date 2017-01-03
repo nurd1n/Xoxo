@@ -46,7 +46,7 @@ Untuk update jalankan file update.sh
 - [Ling Bimantara](https://www.facebook.com/Syehlung)
 - [Vanz](https://www.facebook.com/0x0010)
 
-## Group support
+## Group support & bugs report
 Facebook : https://www.facebook.com/groups/1631160323785934/
 
 ## Kontak dan saran
