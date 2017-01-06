@@ -6,6 +6,7 @@ mkdir -p download/video
 mkdir -p report
 mkdir -p video_awal
 mkdir -p video_akhir
+mkdir -p record-tv
 
 cd /
 clear && clear
