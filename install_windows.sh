@@ -4,6 +4,7 @@ mkdir -p download/video
 mkdir report
 mkdir video_awal
 mkdir video_akhir
+mkdir record_tv
 
 # upgrade pip & setuptools
 pip install --upgrade pip setuptools
