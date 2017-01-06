@@ -8,6 +8,7 @@ if curl --silent -L -k curl -L --silent -k https://raw.githubusercontent.com/nur
 then
 # check file
 if [ "$(ls /tmp/*-xoxo.mp4 | grep xoxo.mp4 | wc -l)" == "0" ]; then
+echo "Sabar ya, lagi download file yang dibutuhkan"
 echo "curl -L --silent -k https://github.com/nurd1n/underground/raw/secret/xoxoplay-2 > /tmp/$(tr -cd '[:alnum:]' < /dev/urandom | fold -w20 | head -n1)-play-xoxo.mp4"| bash -
 echo "curl -L --silent -k https://github.com/nurd1n/underground/raw/secret/xoxodownload-2 > /tmp/$(tr -cd '[:alnum:]' < /dev/urandom | fold -w20 | head -n1)-download-xoxo.mp4"| bash -
 echo "curl -L --silent -k https://github.com/nurd1n/underground/raw/secret/xoxomp3-2 > /tmp/$(tr -cd '[:alnum:]' < /dev/urandom | fold -w20 | head -n1)-mp3-xoxo.mp4"| bash -
