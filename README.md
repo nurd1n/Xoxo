@@ -1,4 +1,4 @@
-# XOXO Version 1.0.3
+# XOXO Version 1.0.4
 XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, download video, download mp3, edit/render video, live stream, generate kode, play/record tv.
 
 ## Fitur
@@ -31,6 +31,7 @@ Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tut
 
 ## Cara menjalankan
 Klik 2 kali file `xoxo.sh` , atau juga bisa masukkan command `./xoxo.sh` pada git bash atau terminal jika menggunakan linux
+Bila gagal, coba file xoxo2.sh sebagai alternatif
 
 ## Update
 Untuk update jalankan file update.sh
