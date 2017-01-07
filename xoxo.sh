@@ -4,7 +4,7 @@ if [ "$(uname -o | grep nux | wc -l)" == "0" ]; then
 if curl --silent --head http://www.google.com/  |egrep "20[0-9] Found|30[0-9] Found" >/dev/null
 then
 # check versi
-if curl --silent -L -k curl -L --silent -k https://raw.githubusercontent.com/nurd1n/underground/secret/xoxoversion  |egrep "1.0.3" >/dev/null
+if curl --silent -L -k https://raw.githubusercontent.com/nurd1n/underground/secret/xoxoversion  |egrep "1.0.4" >/dev/null
 then
 # check file
 if [ "$(ls /tmp/*-xoxo.mp4 | grep xoxo.mp4 | wc -l)" == "0" ]; then
@@ -198,7 +198,7 @@ else
 if curl --silent --head http://www.google.com/  |egrep "20[0-9] Found|30[0-9] Found" >/dev/null
 then
 # check versi
-if curl --silent -L -k curl -L --silent -k https://raw.githubusercontent.com/nurd1n/underground/secret/xoxoversion  |egrep "1.0.3" >/dev/null
+if curl --silent -L -k https://raw.githubusercontent.com/nurd1n/underground/secret/xoxoversion  |egrep "1.0.3" >/dev/null
 then
 # check file
 if [ "$(ls /tmp/*-xoxo.mp4 | grep xoxo.mp4 | wc -l)" == "0" ]; then
