@@ -31,7 +31,7 @@ Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tut
 
 ## Cara menjalankan
 Klik 2 kali file `xoxo.sh` , atau juga bisa masukkan command `./xoxo.sh` pada git bash atau terminal jika menggunakan linux
-Bila gagal, coba file xoxo2.sh sebagai alternatif
+Bila gagal, coba file `xoxo2.sh` sebagai alternatif
 
 ## Update
 Untuk update jalankan file update.sh
