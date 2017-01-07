@@ -1,0 +1,29 @@
+Panduan Awal Bagi Pengguna Windows
+
+##### Alat yang wajib diinstall (khusus windows) #####
+
+1. Git for windows >> https://git-for-windows.github.io/
+2. Python 3.5.* atau 3.6.* >> https://www.python.org/downloads/windows/ 
+  Sesuaikan bit komputer, misal :
+  Python 3.5.2 32 bit >> https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe
+  Python 3.5.2 64 bit >> https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
+  Python 3.6.0 32 bit >> https://www.python.org/ftp/python/3.6.0/python-3.6.0.exe
+  Python 3.6.0 64 bit >> https://www.python.org/ftp/python/3.6.0/python-3.6.0-amd64.exe
+3. Ffmpeg (Linking pilih shared & sesuaikan bit komputer, 32/64 bit) >> https://ffmpeg.zeranoe.com/builds/
+  Jangan lupa setting PATH ffmpeg, cek di google
+
+## Setelah semua alat terinstall, kemudian lakukan clone
+  - Bagi yg pertamakali clone masukkan command git clone -b master https://github.com/nurd1n/Xoxo, check tutorial di https://www.youtube.com/watch?v=iPdawz6GqAY
+  - Bagi yg sudah pernah clone, tinggal jalankan/klik file update.sh
+  
+## Setelah clone selesai, masuk ke folder Xoxo atau Xoxo Master
+  - Jalankan/klik file install_windows.sh
+  - Bisa juga, buka git bash here, kemudian masukkan command ./install_windows.sh
+  
+## Cara menjalankan
+  - Cukup klik file xoxo.sh atau xoxo2.sh
+  - Bisa juga, buka git bash here, kemudian masukkan command ./xoxo.sh atau ./xoxo2.sh
+  
+## Jika ada notifikasi versi terbaru
+  - Cukuk klik file update.sh, bisa juga, buka git bash here, kemudian masukkan command ./update.sh
+  - Bila update gagal, hapus semua file sh, kecuali update.sh. Kemudian jalankan lagi file update.sh
