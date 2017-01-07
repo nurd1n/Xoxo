@@ -47,15 +47,15 @@ Silahkan ketik pilihanmu : "
 read option
 
 if [ "$option" == "1" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "2" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "3" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "4" ]; then
@@ -63,11 +63,11 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 
  elif [ "$option" == "5" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "6" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "7" ]; then
@@ -79,11 +79,11 @@ source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 				 
  elif [ "$option" == "9" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "10" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "11" ]; then
@@ -138,15 +138,15 @@ Silahkan ketik pilihanmu : "
 read option
 
 if [ "$option" == "1" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "2" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "3" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "4" ]; then
@@ -154,11 +154,11 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 
  elif [ "$option" == "5" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "6" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "7" ]; then
@@ -170,11 +170,11 @@ source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 				 
  elif [ "$option" == "9" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "10" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "11" ]; then
@@ -240,15 +240,15 @@ Silahkan ketik pilihanmu : "
 read option
 
 if [ "$option" == "1" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "2" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxodownload.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxodownload.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "3" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxomp3.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxomp3.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "4" ]; then
@@ -256,11 +256,11 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 
  elif [ "$option" == "5" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxolive.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxolive.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "6" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxobcv.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxobcv.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "7" ]; then
@@ -272,11 +272,11 @@ source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 				 
  elif [ "$option" == "9" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplaytv.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplaytv.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "10" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxorecordtv.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxorecordtv.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "11" ]; then
@@ -331,15 +331,15 @@ Silahkan ketik pilihanmu : "
 read option
 
 if [ "$option" == "1" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplay.sh && echo \"chmod 755 /tmp/deletexoxoplay.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-play-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "2" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxodownload.sh && echo \"chmod 755 /tmp/deletexoxodownload.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-download-xoxo.mp4)" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "3" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxomp3.sh && echo \"chmod 755 /tmp/deletexoxomp3.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-mp3-xoxo.mp4)" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "4" ]; then
@@ -347,11 +347,11 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 
  elif [ "$option" == "5" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxolive.sh && echo \"chmod 755 /tmp/deletexoxolive.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-live-xoxo.mp4)" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "6" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxobcv.sh && echo \"chmod 755 /tmp/deletexoxobcv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-bcv-xoxo.mp4)" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$option" == "7" ]; then
@@ -363,11 +363,11 @@ source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
                  Maaf saat ini, menu belum tersedia" ; sleep 15 ; exit
 				 
  elif [ "$option" == "9" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxoplaytv.sh && echo \"chmod 755 /tmp/deletexoxoplaytv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-playtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "10" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|xoxo999|\\n|g' -e 's|xixi999| |g' > /tmp/deletexoxorecordtv.sh && echo \"chmod 755 /tmp/deletexoxorecordtv.sh\; sed -i -e 's/\\r\$//'-e 's|ffmpeg|./ffmpeg|g' /tmp/.deletexoxoplay.sh\" | bash - ;done < $(ls /tmp/*-recordtv-xoxo.mp4)" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$option" == "11" ]; then
