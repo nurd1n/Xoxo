@@ -24,7 +24,7 @@ fi
 clear
 echo -n "$(date)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          XOXO Version 1.0.3                         ~
+~                          XOXO Version 1.0.4                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Hai, youtuber dan spammer, silahkan pilih menu di bawah :
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -115,7 +115,7 @@ fi
 clear
 echo -n "$(date)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          XOXO Version 1.0.3                         ~
+~                          XOXO Version 1.0.4                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Hai, youtuber dan spammer, silahkan pilih menu di bawah :
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -198,7 +198,7 @@ else
 if curl --silent --head http://www.google.com/  |egrep "20[0-9] Found|30[0-9] Found" >/dev/null
 then
 # check versi
-if curl --silent -L -k https://raw.githubusercontent.com/nurd1n/underground/secret/xoxoversion  |egrep "1.0.3" >/dev/null
+if curl --silent -L -k https://raw.githubusercontent.com/nurd1n/underground/secret/xoxoversion  |egrep "1.0.4" >/dev/null
 then
 # check file
 if [ "$(ls /tmp/*-xoxo.mp4 | grep xoxo.mp4 | wc -l)" == "0" ]; then
@@ -218,7 +218,7 @@ fi
 clear
 echo -n "$(date)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          XOXO Version 1.0.3                         ~
+~                          XOXO Version 1.0.4                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Hai, youtuber dan spammer, silahkan pilih menu di bawah :
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -309,7 +309,7 @@ fi
 clear
 echo -n "$(date)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          XOXO Version 1.0.3                         ~
+~                          XOXO Version 1.0.4                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Hai, youtuber dan spammer, silahkan pilih menu di bawah :
 ----------------------------------------------------------~~~~~~~~~~~~~~
