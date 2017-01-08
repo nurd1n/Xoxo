@@ -1,4 +1,4 @@
-# XOXO Version 1.0.4
+# XOXO Version 1.05
 XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, download video, download mp3, edit/render video, live stream, generate kode, play/record tv.
 
 ## Fitur
@@ -15,7 +15,7 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 
 ## Alat yang wajib diinstall (khusus windows)
 - Git for windows >> https://git-for-windows.github.io/
-- Python 3.5 atau 3.6 >> https://www.python.org/downloads/windows/
+- Python 3 ke atas >> https://www.python.org/downloads/windows/
 - Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/
 
 ## Instalasi utama
@@ -31,10 +31,9 @@ Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tut
 
 ## Cara menjalankan
 Klik 2 kali file `xoxo.sh` , atau juga bisa masukkan command `./xoxo.sh` pada git bash atau terminal jika menggunakan linux
-Bila gagal, coba file `xoxo2.sh` sebagai alternatif
 
 ## Update
-Untuk update jalankan file update.sh
+Untuk update, buka git bash here di folder xoxo, kemudian masukkan command `git pull` dan `git submodule update --init --recursive` pada git bash
 
 ## Credits
 - [Youtube-dl](https://github.com/rg3/youtube-dl)
