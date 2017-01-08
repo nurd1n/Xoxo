@@ -20,3 +20,5 @@ python -m pip install --upgrade youtube-dl
 #unzip master.zip
 #cd youtube-upload-master
 #python setup.py install
+
+unzip -q bin/wget.zip -d bin
