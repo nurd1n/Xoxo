@@ -22,3 +22,4 @@ python -m pip install --upgrade youtube-dl
 #python setup.py install
 
 unzip -q bin/wget.zip -d bin
+rm -f bin/wget.zip
