@@ -18,6 +18,7 @@ Panduan Awal Bagi Pengguna Windows
 
 ## Setelah semua alat terinstall, kemudian lakukan clone
   - Bagi yg pertamakali clone masukkan command git clone -b master https://github.com/nurd1n/Xoxo, check tutorial di https://www.youtube.com/watch?v=iPdawz6GqAY
+  - Atau bisa juga download file zip langsung : https://github.com/nurd1n/Xoxo/archive/master.zip
   
 ## Setelah clone selesai, masuk ke folder Xoxo atau Xoxo (Master)
   - Jalankan/klik file install_windows.sh
