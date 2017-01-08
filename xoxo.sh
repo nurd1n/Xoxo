@@ -271,7 +271,8 @@ echo "sed -i 's/\\r\$//' *.sh" >> update.sh
 
 echo "Sudah tersedia versi terbaru, silahkan close git bash/terminal dan klik 2 kali file update.sh"
 echo "-----------------------------------------------------------"
-echo "Jika gagal update, silahkan clone xoxo dari awal di folder lain"
+echo "Jika gagal update, silahkan clone xoxo dari awal di folder lain
+atau download langsung di https://github.com/nurd1n/Xoxo/archive/master.zip"
 echo "-----------------------------------------------------------"
 echo "Dan jangan lupa cek apa yang terbaru di http://github.com/nurd1n/Xoxo"
 echo "-----------------------------------------------------------"
