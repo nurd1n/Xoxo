@@ -21,6 +21,7 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 ## Instalasi utama
 Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tutorial di https://www.youtube.com/watch?v=iPdawz6GqAY
 - `git clone -b master https://github.com/nurd1n/Xoxo`
+
 Atau bisa juga download file zip langsung : https://github.com/nurd1n/Xoxo/archive/master.zip
 
 ## Instalasi tambahan
