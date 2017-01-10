@@ -1,5 +1,5 @@
-# XOXO Version 1.0.5
-XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, download video, download mp3, edit/render video, live stream, generate kode, play/record tv.
+# XOXO Version 1.0.6
+XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, download video, download mp3, edit/render video, live stream, play/record tv, text to speech.
 
 ## Fitur
 - [x] Play Video (Local Disk, Youtube, Vidio)
@@ -8,10 +8,9 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 - [ ] Upload Video (*belum tersedia)
 - [x] Live Stream (Youtube, Facebook)
 - [x] Bypass Copyright Video
-- [ ] Input Kode (*belum tersedia)
-- [ ] Generate Kode (*belum tersedia)
 - [x] Play TV
 - [x] Record TV
+- [x] Text To Speech
 
 ## Alat yang wajib diinstall (khusus windows)
 - Git for windows >> https://git-for-windows.github.io/
@@ -41,6 +40,7 @@ Untuk update, buka git bash here di folder xoxo, kemudian masukkan command `git 
 - [Youtube-dl](https://github.com/rg3/youtube-dl)
 - [Youtube-upload](https://github.com/tokland/youtube-upload)
 - [Ffmpeg](https://ffmpeg.org/)
+- [gTTS](https://github.com/pndurette/gTTS)
 
 ## Contributors script
 - [Nurdianto](https://www.facebook.com/nurdiantocyk)
