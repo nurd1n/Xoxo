@@ -14,7 +14,7 @@ python -m pip install --upgrade pip setuptools wget curl youtube-dl gTTS
 command -V wget >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade wget)"; sleep 1000; }
 command -V curl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade curl)"; sleep 1000; }
 command -V youtube-dl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade youtube-dl)"; sleep 1000; }
-command -V gTTS >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade gTTS)"; sleep 1000; }
+command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade gTTS)"; sleep 1000; }
 
 # install youtube-upload (optional)
 #python -m pip install --upgrade google-api-python-client progressbar2
