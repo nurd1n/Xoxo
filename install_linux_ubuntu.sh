@@ -7,6 +7,8 @@ mkdir -p report
 mkdir -p video_awal
 mkdir -p video_akhir
 mkdir -p record-tv
+mkdir -p text_to_speech/id
+mkdir -p text_to_speech/en
 
 cd /
 clear && clear
@@ -18,8 +20,8 @@ sudo apt-get install ffmpeg unzip python-pip
 #install mechanize & beautifulsoup
 easy_install mechanize
 easy_install BeautifulSoup4
-#install youtube-dl
-pip install --upgrade youtube-dl
+#install youtube-dl & gTTS
+pip install --upgrade youtube-dl gTTS
 #install git
 sudo apt-get install git-all
 #ubah fonts
