@@ -106,6 +106,7 @@ fi
 else
 
 clear
+ffplay 'bin/audio/xoxo.mp3' -nodisp -autoexit -loglevel panic -af "atempo=0.85,volume=2"
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.0.6\e[0m                         ~
@@ -195,6 +196,7 @@ if [[ $? -eq 0 ]]; then
 if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.0.6')" == "1.0.6" ]; then
 
 clear
+ffplay 'bin/audio/xoxo.mp3' -nodisp -autoexit -loglevel panic -af "atempo=0.85,volume=2"
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.0.6\e[0m                         ~
@@ -286,6 +288,7 @@ fi
 else
 
 clear
+ffplay 'bin/audio/xoxo.mp3' -nodisp -autoexit -loglevel panic -af "atempo=0.85,volume=2"
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.0.6\e[0m                         ~
