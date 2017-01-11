@@ -187,12 +187,12 @@ command -V ffmpeg >/dev/null 2>&1 || { echo -e >&2 "----------------------------
 command -V youtube-dl >/dev/null 2>&1 || { echo -e >&2 "------------------------------------------------------------------------\n------------------------------------------------------------------------\nInstall \e[1m\e[92myoutube-dl\e[0m dulu ya, sebelum menjalankan xoxo\nCaranya, buka git bash kemudian masukkan : \e[1m\e[93mpip install --upgrade youtube-dl\e[0m\nJika masih gagal, masukkan : \e[1m\e[93measy_install --upgrade youtube-dl\e[0m\n------------------------------------------------------------------------\n------------------------------------------------------------------------"; sleep 1000; }
 command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "------------------------------------------------------------------------\n------------------------------------------------------------------------\nInstall \e[1m\e[92mgTTS\e[0m dulu ya, sebelum menjalankan xoxo\nCaranya, buka git bash kemudian masukkan : \e[1m\e[93mpip install --upgrade gTTS\e[0m\nJika masih gagal, masukkan : \e[1m\e[93measy_install --upgrade gTTS\e[0m\n------------------------------------------------------------------------\n------------------------------------------------------------------------"; sleep 1000; }
 
-# linux ubuntu
 # check online/offline
-bin/wget.exe -q --tries=10 --timeout=20 --spider http://google.com
+# linux ubuntu
+wget -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.0.6')" == "1.0.6" ]; then
+if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.0.6')" == "1.0.6" ]; then
 
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
@@ -252,7 +252,7 @@ echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's/\\r\$//' -e 's|ffm
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxotts.sh && echo \"chmod 755 /tmp/deletexoxotts.sh\" | bash - ;done < bin/xoxotts.exe" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|wget|wget|g' > /tmp/deletexoxotts.sh && echo \"chmod 755 /tmp/deletexoxotts.sh\" | bash - ;done < bin/xoxotts.exe" | bash -
 source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "10" ]; then
@@ -343,7 +343,7 @@ echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's/\\r\$//' -e 's|ffm
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxotts.sh && echo \"chmod 755 /tmp/deletexoxotts.sh\" | bash - ;done < bin/xoxotts.exe" | bash -
+echo "while read f1; do echo \"\$f1\" | xxd -r -p | sed -e 's|wget|wget|g' > /tmp/deletexoxotts.sh && echo \"chmod 755 /tmp/deletexoxotts.sh\" | bash - ;done < bin/xoxotts.exe" | bash -
 source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "10" ]; then
@@ -360,5 +360,3 @@ fi
 # linux ubuntu
 
 fi
-
-
