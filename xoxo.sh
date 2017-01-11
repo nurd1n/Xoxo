@@ -87,7 +87,8 @@ fi
 
 else
 
-echo "git pull" > update.sh
+echo "git stash" > update.sh
+echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
 echo "sed -i 's/\\r\$//' *.sh" >> update.sh
 echo "./install_windows.sh" >> update.sh
@@ -265,7 +266,8 @@ fi
 
 else
 
-echo "git pull" > update.sh
+echo "git stash" > update.sh
+echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
 echo "sed -i 's/\\r\$//' *.sh" >> update.sh
 echo "./install_linux.sh" >> update.sh
