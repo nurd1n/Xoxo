@@ -9,7 +9,7 @@ mkdir -p text_to_speech/id
 mkdir -p text_to_speech/en
 
 # upgrade pip, setuptools, wget, curl, youtube-dl, gTTS
-unzip -q bin/wget.zip -d bin
+unzip -qf bin/wget.zip -d bin
 command -V pip >/dev/null 2>&1 || { echo -e >&2 "$(bin/wget -q --no-check-certificate "https://bootstrap.pypa.io/get-pip.py" && python get-pip.py && rm -f get-pip.py)"; sleep 1; }
 python -m pip install --upgrade pip setuptools wget curl youtube-dl gTTS
 command -V wget >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade wget)"; sleep 1; }
