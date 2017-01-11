@@ -33,3 +33,5 @@ curl -L https://github.com/tokland/youtube-upload/archive/master.zip -o master.z
 unzip master.zip
 cd youtube-upload-master
 python setup.py install
+
+chmod 755 *
