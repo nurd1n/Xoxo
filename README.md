@@ -14,7 +14,7 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 
 ## Alat yang wajib diinstall (khusus windows)
 - Git for windows >> https://git-for-windows.github.io/
-- Python 3 ke atas >> https://www.python.org/downloads/windows/
+- Python 3 ke atas (3.4.4 / 3.5.2 / 3.6.0) >> https://www.python.org/downloads/windows/
 - Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/
 
 ## Instalasi utama
