@@ -1,4 +1,4 @@
-# XOXO Version 1.0.6
+# XOXO Version 1.0.7
 XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, download video, download mp3, edit/render video, live stream, play/record tv, text to speech.
 
 ## Fitur
@@ -17,6 +17,16 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 - Python 3 ke atas (3.4.4 / 3.5.2 / 3.6.0) >> https://www.python.org/downloads/windows/
 - Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/
 
+## Video Panduan
+- Install git bash, python 3.6.0, ffmpeg, clone xoxo
+
+[![Install git bash, python 3.6.0, ffmpeg, clone xoxo](http://img.youtube.com/vi/U1dOJsD0gWY/0.jpg)](http://www.youtube.com/watch?v=U1dOJsD0gWY)
+
+
+- Jika python 3.6.0 tidak dapat diinstall, ganti ke versi 3.4.4, berikut panduannya
+
+[![Install git bash, python 3.6.0, ffmpeg, clone xoxo](http://img.youtube.com/vi/Myp9nNOcHIc/0.jpg)](http://www.youtube.com/watch?v=Myp9nNOcHIc)
+
 ## Instalasi utama
 Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tutorial di https://www.youtube.com/watch?v=iPdawz6GqAY
 - `git clone -b master https://github.com/nurd1n/Xoxo`
@@ -26,15 +36,21 @@ Atau bisa juga download file zip langsung : https://github.com/nurd1n/Xoxo/archi
 ## Instalasi tambahan
 - Windows : jalankan file install_windows.sh
 - Linux :
--- berikan permission file : `chmod 755 *.sh`
--- ubah dos to unix : `sed -i 's/\r$//' *.sh`
--- jalankan file install_linux_ubuntu.sh
+
+  Berikan permission file : `chmod 755 *.sh`
+
+  Ubah dos to unix : `sed -i 's/\r$//' *.sh`
+
+  Jalankan file `install_linux_ubuntu.sh`
 
 ## Cara menjalankan
 Klik 2 kali file `xoxo.sh` , atau juga bisa masukkan command `./xoxo.sh` pada git bash atau terminal jika menggunakan linux
 
 ## Update
-Untuk update, buka git bash here di folder xoxo, kemudian masukkan command `git pull` dan `git submodule update --init --recursive` pada git bash
+Untuk update, buka git bash here di folder xoxo, kemudian masukkan command berikut pada git bash :
+- `git stash`
+- `git pull`
+- `git submodule update --init --recursive`
 
 ## Credits
 - [Youtube-dl](https://github.com/rg3/youtube-dl)
