@@ -17,6 +17,12 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 - Python 3 ke atas (3.4.4 / 3.5.2 / 3.6.0) >> https://www.python.org/downloads/windows/
 - Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/
 
+## Instalasi utama
+Jalankan command berikut pada git bash, di folder yang diinginkan
+- `git clone -b master https://github.com/nurd1n/Xoxo`
+
+Atau bisa juga download file zip langsung : https://github.com/nurd1n/Xoxo/archive/master.zip
+
 ## Video Panduan
 - Install git bash, python 3.6.0, ffmpeg, clone xoxo
 
@@ -25,13 +31,12 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 
 - Jika python 3.6.0 tidak dapat diinstall, ganti ke versi 3.4.4, berikut panduannya
 
-[![Install git bash, python 3.6.0, ffmpeg, clone xoxo](http://img.youtube.com/vi/Myp9nNOcHIc/0.jpg)](http://www.youtube.com/watch?v=Myp9nNOcHIc)
+[![Install python 3.4.4, ffmpeg, clone xoxo](http://img.youtube.com/vi/Myp9nNOcHIc/0.jpg)](http://www.youtube.com/watch?v=Myp9nNOcHIc)
 
-## Instalasi utama
-Jalankan command berikut pada git bash, di folder yang diinginkan, cek video tutorial di https://www.youtube.com/watch?v=iPdawz6GqAY
-- `git clone -b master https://github.com/nurd1n/Xoxo`
 
-Atau bisa juga download file zip langsung : https://github.com/nurd1n/Xoxo/archive/master.zip
+- Git clone xoxo
+
+[![Git clone xoxo](http://img.youtube.com/vi/iPdawz6GqAY/0.jpg)](http://www.youtube.com/watch?v=iPdawz6GqAY)
 
 ## Instalasi tambahan
 - Windows : jalankan file install_windows.sh
