@@ -16,11 +16,10 @@ command -V curl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade curl)
 command -V youtube-dl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade youtube-dl)"; sleep 1; }
 command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade gTTS)"; sleep 1; }
 
-# install youtube-upload (optional)
-#python -m pip install --upgrade google-api-python-client progressbar2
-#curl -L https://github.com/tokland/youtube-upload/archive/master.zip -o master.zip
-#unzip master.zip
-#cd youtube-upload-master
-#python setup.py install
+# install youtube-upload
+python -m pip install --upgrade google-api-python-client progressbar2
+cd youtube-upload
+python setup.py install
 
+cd -
 chmod 755 *
