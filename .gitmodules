@@ -1,0 +1,3 @@
+[submodule "youtube-upload"]
+	path = youtube-upload
+	url = https://github.com/tokland/youtube-upload
