@@ -9,11 +9,11 @@ command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "-----------------------
 
 # windows
 # check online/offline
-wget -q --no-check-certificate --tries=10 --timeout=20 --spider http://google.com
+bin/wget.exe -q --no-check-certificate --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.0.8')" == "1.0.8" ]; then
-wget -q --no-check-certificate https://github.com/nurd1n/underground/raw/secret/xoxoversion -O - | xxd -r -p | bash -
+if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.0.8')" == "1.0.8" ]; then
+bin/wget.exe -q --no-check-certificate https://github.com/nurd1n/underground/raw/secret/xoxoversion -O - | xxd -r -p | bash -
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -40,15 +40,15 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 read delete_option
 
 if [ "$delete_option" == "1" ]; then
-echo "cat bin/xoxoplay.exe | xxd -r -p > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "2" ]; then
-echo "cat bin/xoxodownload.exe | xxd -r -p > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "3" ]; then
-echo "cat bin/xoxomp3.exe | xxd -r -p > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "4" ]; then
@@ -56,23 +56,23 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" ; sleep 15 ; exit
 
  elif [ "$delete_option" == "5" ]; then
-echo "cat bin/xoxolive.exe | xxd -r -p > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "6" ]; then
-echo "cat bin/xoxobcv.exe | xxd -r -p > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "7" ]; then
-echo "cat bin/xoxoplaytv.exe | xxd -r -p > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "8" ]; then
-echo "cat bin/xoxorecordtv.exe | xxd -r -p > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "cat bin/xoxotts.exe | xxd -r -p > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
 source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "10" ]; then
@@ -130,15 +130,15 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 read delete_option
 
 if [ "$delete_option" == "1" ]; then
-echo "cat bin/xoxoplay.exe | xxd -r -p > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "2" ]; then
-echo "cat bin/xoxodownload.exe | xxd -r -p > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "3" ]; then
-echo "cat bin/xoxomp3.exe | xxd -r -p > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "4" ]; then
@@ -146,23 +146,23 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" ; sleep 15 ; exit
 
  elif [ "$delete_option" == "5" ]; then
-echo "cat bin/xoxolive.exe | xxd -r -p > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "6" ]; then
-echo "cat bin/xoxobcv.exe | xxd -r -p > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "7" ]; then
-echo "cat bin/xoxoplaytv.exe | xxd -r -p > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "8" ]; then
-echo "cat bin/xoxorecordtv.exe | xxd -r -p > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "cat bin/xoxotts.exe | xxd -r -p > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
 source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "10" ]; then
@@ -219,15 +219,15 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 read delete_option
 
 if [ "$delete_option" == "1" ]; then
-echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "2" ]; then
-echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "3" ]; then
-echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "4" ]; then
@@ -235,23 +235,23 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" ; sleep 15 ; exit
 
  elif [ "$delete_option" == "5" ]; then
-echo "cat bin/xoxolive.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "6" ]; then
-echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "7" ]; then
-echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "8" ]; then
-echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "cat bin/xoxotts.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
 source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "10" ]; then
@@ -310,15 +310,15 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 read delete_option
 
 if [ "$delete_option" == "1" ]; then
-echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
 source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "2" ]; then
-echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
 source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "3" ]; then
-echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
 source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "4" ]; then
@@ -326,23 +326,23 @@ source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
                  \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" ; sleep 15 ; exit
 
  elif [ "$delete_option" == "5" ]; then
-echo "cat bin/xoxolive.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
 source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "6" ]; then
-echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
 source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "7" ]; then
-echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
 source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "8" ]; then
-echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
 source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "cat bin/xoxotts.exe | xxd -r -p | sed -e -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
 source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
 
  elif [ "$delete_option" == "10" ]; then
