@@ -11,8 +11,7 @@ mkdir -p text_to_speech/id
 mkdir -p text_to_speech/en
 
 #install youtube-upload
-pip install --upgrade google-api-python-client progressbar2
-pip install --upgrade git+https://github.com/tokland/youtube-upload.git@master
+pip install --upgrade google-api-python-client progressbar2 git+https://github.com/tokland/youtube-upload.git@master
 chmod 755 *
 
 cd /
