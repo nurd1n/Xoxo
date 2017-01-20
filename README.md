@@ -5,7 +5,7 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 - [x] Play Video (Local Disk, Youtube, Vidio)
 - [x] Download Video (Youtube, Vidio, Facebook, Instagram)
 - [x] Download Mp3 Youtube
-- [ ] Upload Video (*belum tersedia)
+- [ ] Youtube Content Manager (*belum tersedia)
 - [x] Live Stream (Youtube, Facebook)
 - [x] Bypass Copyright Video
 - [x] Play TV
