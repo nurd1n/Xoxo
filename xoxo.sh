@@ -91,6 +91,7 @@ echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
 echo "sed -i 's/\\r\$//' *.sh" >> update.sh
 echo "./install_windows.sh" >> update.sh
+echo "chmod 755 *.sh"
 
 echo -e "Sudah tersedia versi terbaru, silahkan close git bash/terminal dan klik 2 kali file \e[1m\e[93mupdate.sh\e[0m"
 echo "-----------------------------------------------------------"
@@ -270,6 +271,7 @@ echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
 echo "sed -i 's/\\r\$//' *.sh" >> update.sh
 echo "./install_linux_ubuntu.sh" >> update.sh
+echo "chmod 755 *.sh"
 
 echo -e "Sudah tersedia versi terbaru, silahkan close git bash/terminal dan klik 2 kali file \e[1m\e[93mupdate.sh\e[0m"
 echo "-----------------------------------------------------------"
