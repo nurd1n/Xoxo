@@ -33,3 +33,17 @@ sudo apt-get install fonts-vlgothic
 sudo fc-cache -f -v
 
 cd -
+clear
+echo -e "
+
+
+
+
+\e[1m\e[92m
+Update selesai, jika gagal silahkan clone xoxo dari awal
+
+
+
+
+"
+sleep 300
