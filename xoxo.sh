@@ -90,16 +90,84 @@ echo "git stash" > update.sh
 echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
 echo "sed -i 's/\\r\$//' *.sh" >> update.sh
+echo "chmod 755 *.sh" >> update.sh
 echo "./install_windows.sh" >> update.sh
-echo "chmod 755 *.sh"
+echo "chmod 755 *.sh" | bash -
 
-echo -e "Sudah tersedia versi terbaru, silahkan close git bash/terminal dan klik 2 kali file \e[1m\e[93mupdate.sh\e[0m"
-echo "-----------------------------------------------------------"
-echo "Jika gagal update, silahkan clone xoxo dari awal di folder lain"
-echo "-----------------------------------------------------------"
-echo -e "Dan jangan lupa cek apa yang terbaru di \e[1m\e[92mhttp://github.com/nurd1n/Xoxo\e[0m"
-echo "-----------------------------------------------------------"
-sleep 300
+clear
+echo -n -e "\e[1m\e[93m$(date)\e[0m
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~                          \e[1m\e[96mXOXO Version 1.0.8\e[0m                         ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+----------------------------------------------------------~~~~~~~~~~~~~~
+		\e[1m\e[96m1. Play Video\e[0m
+		\e[1m\e[96m2. Download Video\e[0m
+		\e[1m\e[96m3. Download Mp3 Youtube\e[0m
+		\e[96m4. Youtube Content Manager*\e[0m
+		\e[1m\e[96m5. Live Stream\e[0m
+		\e[1m\e[96m6. Bypass Copyright Video\e[0m
+		\e[1m\e[96m7. Play TV\e[0m
+		\e[1m\e[96m8. Record TV\e[0m
+		\e[1m\e[96m9. Text To Speech\e[0m
+		\e[1m\e[96m10. Exit\e[0m
+
+\e[96m(* menu belum tersedia)\e[0m
+------------------------------------------------------------------------
+Sudah tersedia versi terbaru, jika ingin update klik 2 kali file \e[1m\e[93mupdate.sh\e[0m
+Jika gagal update, silahkan clone xoxo dari awal di folder lain
+Dan jangan lupa cek apa yang terbaru di \e[1m\e[92mhttp://github.com/nurd1n/Xoxo\e[0m
+------------------------------------------------------------------------
+
+\e[1m\e[92mSilahkan ketik pilihanmu :\e[0m "
+
+read delete_option
+
+if [ "$delete_option" == "1" ]; then
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
+source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "2" ]; then
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
+source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "3" ]; then
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
+source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "4" ]; then
+  clear ; echo -e "
+                 \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" ; sleep 15 ; exit
+
+ elif [ "$delete_option" == "5" ]; then
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
+source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "6" ]; then
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
+source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "7" ]; then
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
+source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
+				 
+ elif [ "$delete_option" == "8" ]; then
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
+source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
+				 
+ elif [ "$delete_option" == "9" ]; then
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
+source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "10" ]; then
+
+  exit
+
+  else
+  echo -e "\n\e[1m\e[93mMaaf, silahkan isi menu yang benar\e[0m" ; sleep 5 ; exit
+
+fi
+
 fi
 # check versi
 
@@ -270,17 +338,84 @@ echo "git stash" > update.sh
 echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
 echo "sed -i 's/\\r\$//' *.sh" >> update.sh
+echo "chmod 755 *.sh" >> update.sh
 echo "./install_linux_ubuntu.sh" >> update.sh
-echo "chmod 755 *.sh"
+echo "chmod 755 *.sh" | bash -
 
-echo -e "Sudah tersedia versi terbaru, silahkan close git bash/terminal dan klik 2 kali file \e[1m\e[93mupdate.sh\e[0m"
-echo "-----------------------------------------------------------"
-echo "Jika gagal update, silahkan clone xoxo dari awal di folder lain
-atau download langsung di https://github.com/nurd1n/Xoxo/archive/master.zip"
-echo "-----------------------------------------------------------"
-echo -e "Dan jangan lupa cek apa yang terbaru di \e[1m\e[92mhttp://github.com/nurd1n/Xoxo\e[0m"
-echo "-----------------------------------------------------------"
-sleep 300
+clear
+echo -n -e "\e[1m\e[93m$(date)\e[0m
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~                          \e[1m\e[96mXOXO Version 1.0.8\e[0m                         ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+----------------------------------------------------------~~~~~~~~~~~~~~
+		\e[1m\e[96m1. Play Video\e[0m
+		\e[1m\e[96m2. Download Video\e[0m
+		\e[1m\e[96m3. Download Mp3 Youtube\e[0m
+		\e[96m4. Youtube Content Manager*\e[0m
+		\e[1m\e[96m5. Live Stream\e[0m
+		\e[1m\e[96m6. Bypass Copyright Video\e[0m
+		\e[1m\e[96m7. Play TV\e[0m
+		\e[1m\e[96m8. Record TV\e[0m
+		\e[1m\e[96m9. Text To Speech\e[0m
+		\e[1m\e[96m10. Exit\e[0m
+
+\e[96m(* menu belum tersedia)\e[0m
+------------------------------------------------------------------------
+Sudah tersedia versi terbaru, jika ingin update klik 2 kali file \e[1m\e[93mupdate.sh\e[0m
+Jika gagal update, silahkan clone xoxo dari awal di folder lain
+Dan jangan lupa cek apa yang terbaru di \e[1m\e[92mhttp://github.com/nurd1n/Xoxo\e[0m
+------------------------------------------------------------------------
+
+\e[1m\e[92mSilahkan ketik pilihanmu :\e[0m "
+
+read delete_option
+
+if [ "$delete_option" == "1" ]; then
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplay.sh ; chmod 755 /tmp/deletexoxoplay.sh" | bash -
+source /tmp/deletexoxoplay.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "2" ]; then
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxodownload.sh ; chmod 755 /tmp/deletexoxodownload.sh" | bash -
+source /tmp/deletexoxodownload.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "3" ]; then
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxomp3.sh ; chmod 755 /tmp/deletexoxomp3.sh" | bash -
+source /tmp/deletexoxomp3.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "4" ]; then
+  clear ; echo -e "
+                 \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" ; sleep 15 ; exit
+
+ elif [ "$delete_option" == "5" ]; then
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxolive.sh ; chmod 755 /tmp/deletexoxolive.sh" | bash -
+source /tmp/deletexoxolive.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "6" ]; then
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxobcv.sh ; chmod 755 /tmp/deletexoxobcv.sh" | bash -
+source /tmp/deletexoxobcv.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "7" ]; then
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxoplaytv.sh ; chmod 755 /tmp/deletexoxoplaytv.sh" | bash -
+source /tmp/deletexoxoplaytv.sh && rm -f /tmp/delete*
+				 
+ elif [ "$delete_option" == "8" ]; then
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxorecordtv.sh ; chmod 755 /tmp/deletexoxorecordtv.sh" | bash -
+source /tmp/deletexoxorecordtv.sh && rm -f /tmp/delete*
+				 
+ elif [ "$delete_option" == "9" ]; then
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' > /tmp/deletexoxotts.sh ; chmod 755 /tmp/deletexoxotts.sh" | bash -
+source /tmp/deletexoxotts.sh && rm -f /tmp/delete*
+
+ elif [ "$delete_option" == "10" ]; then
+
+  exit
+
+  else
+  echo -e "\n\e[1m\e[93mMaaf, silahkan isi menu yang benar\e[0m" ; sleep 5 ; exit
+
+fi
+
 fi
 # check versi
 
