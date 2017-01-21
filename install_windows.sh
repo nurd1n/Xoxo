@@ -28,8 +28,7 @@ echo -e "
 
 
 
-\e[1m\e[92m
-Update selesai, jika gagal silahkan clone xoxo dari awal
+\e[1m\e[92mSelesai, jika gagal silahkan clone xoxo dari awal
 
 Jika wget selalu error, ekstract file wget.zip, letaknya ada di folder bin\e[0m
 
