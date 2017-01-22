@@ -17,13 +17,20 @@ XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, down
 - Python 3 ke atas (3.4.4 / 3.5.2 / 3.6.0) >> https://www.python.org/downloads/windows/
 - Ffmpeg (Linking pilih shared) >> https://ffmpeg.zeranoe.com/builds/
 
-## Instalasi utama
+## Instalasi utama windows
 Jalankan command berikut pada git bash, di folder yang diinginkan
 - `git clone -b master https://github.com/nurd1n/Xoxo`
 
 Atau bisa juga download file zip langsung : https://github.com/nurd1n/Xoxo/archive/master.zip
 
-## Video Panduan
+## Instalasi utama linux ubuntu
+Masuk ke root kemudian jalankan command berikut
+- `wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/linux_ubuntu.sh -O - | bash -`
+
+kemudian clone xoxo di folder yang diinginkan
+- `git clone -b master https://github.com/nurd1n/Xoxo && cd Xoxo && chmod 755 *.sh`
+
+## Video panduan
 - Install git bash, python 3.6.0, ffmpeg, clone xoxo
 
 [![Install git bash, python 3.6.0, ffmpeg, clone xoxo](http://img.youtube.com/vi/U1dOJsD0gWY/0.jpg)](http://www.youtube.com/watch?v=U1dOJsD0gWY)
@@ -39,14 +46,8 @@ Atau bisa juga download file zip langsung : https://github.com/nurd1n/Xoxo/archi
 [![Git clone xoxo](http://img.youtube.com/vi/iPdawz6GqAY/0.jpg)](http://www.youtube.com/watch?v=iPdawz6GqAY)
 
 ## Instalasi tambahan
-- Windows : jalankan file install_windows.sh
-- Linux :
-
-  Berikan permission file : `chmod 755 *.sh`
-
-  Ubah dos to unix : `sed -i 's/\r$//' *.sh`
-
-  Jalankan file `install_linux_ubuntu.sh`
+- Windows : jalankan file `install_windows.sh`
+- Linux   : jalankan command `install_linux_ubuntu.sh`
 
 ## Cara menjalankan
 Klik 2 kali file `xoxo.sh` , atau juga bisa masukkan command `./xoxo.sh` pada git bash atau terminal jika menggunakan linux

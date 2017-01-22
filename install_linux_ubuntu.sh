@@ -1,5 +1,25 @@
 # Ubuntu Willy (15.10)
 
+# ffmpeg static
+if [ "$(uname -m)" == "x86_64" ]; then
+	wget -q --no-check-certificate https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
+	tar xf ffmpeg-release-64bit-static.tar.xz
+	mv ffmpeg-3.2.2-64bit-static ffmpeg
+	rm -f ffmpeg-release-64bit-static.tar.xz
+	cp ffmpeg/ffmpeg ffmpeg
+ else
+	wget -q --no-check-certificate https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-32bit-static.tar.xz
+	tar xf ffmpeg-release-32bit-static.tar.xz
+	mv ffmpeg-3.2.2-32bit-static ffmpeg
+	rm -f ffmpeg-release-32bit-static.tar.xz
+	cp ffmpeg/ffmpeg ffmpeg
+fi
+
+# install youtube-dl & gTTS
+pip install --upgrade gTTS git+https://github.com/linglung/ytdl.git@master
+#install youtube-upload
+pip install --upgrade google-api-python-client progressbar2 git+https://github.com/tokland/youtube-upload.git@master
+
 # create folder
 mkdir -p download/musik
 mkdir -p download/video
@@ -11,28 +31,6 @@ mkdir -p text_to_speech/id
 mkdir -p text_to_speech/en
 
 chmod 755 *
-
-cd /
-clear && clear
-sudo apt-get update && sudo apt-get -y install aptitude
-sudo apt-get install apt-transport-https
-sudo apt-get install openssl
-sudo apt-get install gawk python-setuptools software-properties-common
-sudo apt-get install ffmpeg unzip python-pip
-#install mechanize & beautifulsoup
-easy_install --upgrade mechanize
-easy_install --upgrade BeautifulSoup4
-#install youtube-dl & gTTS
-pip install --upgrade gTTS git+https://github.com/linglung/ytdl.git@master
-#install youtube-upload
-pip install --upgrade google-api-python-client progressbar2 git+https://github.com/tokland/youtube-upload.git@master
-#install git
-sudo apt-get install git-all
-#ubah fonts
-sudo apt-get install fonts-vlgothic
-sudo fc-cache -f -v
-
-cd -
 clear
 echo -e "
 
