@@ -16,3 +16,5 @@ chmod 755 *.sh
 ./install_linux_ubuntu.sh
 
 fi
+
+echo yes
