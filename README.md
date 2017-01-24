@@ -80,3 +80,8 @@ Saya selaku penanggungjawab script menyatakan :
 - Tidak ada file, command, virus atau program jahat yang membahayakan di dalam script
 - Perangkat editing video berupa ffmpeg, LEGAL dan GRATIS
 - Script download video/mp3 dan youtube uploader hanyalah command line bash dan bukan merupakan alat/perangkat utama
+
+## Donasi
+Berhubung ada beberapa orang yang ingin memberikan donasi, maka bisa dilakukan melalui paypal berikut ini
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FDC226PG2327N)
