@@ -84,4 +84,4 @@ Saya selaku penanggungjawab script menyatakan :
 ## Donasi
 Berhubung ada beberapa orang yang ingin memberikan donasi, maka bisa dilakukan melalui paypal berikut ini
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=FDC226PG2327N&lc=ID&item_name=Nurdianto&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=FDC226PG2327N&lc=ID&item_name=Donasi%20xoxo&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
