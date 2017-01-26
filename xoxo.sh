@@ -1,4 +1,6 @@
 #!/bin/bash
+git stash
+git pull
 shuf -i 1000-5000 -n 1 > /tmp/xoxoidnumber
 if [ "$(uname -o | grep nux | wc -l)" == "0" ]; then
 
