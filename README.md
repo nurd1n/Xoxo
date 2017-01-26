@@ -51,7 +51,7 @@ kemudian clone xoxo di folder yang diinginkan
 
 ## Install khusus linux desktop lxde x2go + xoxo
 Jika anda ingin membuat linux (ubuntu 15, 64bit)desktop lxde x2go dan sekaligus clone xoxo, bisa menggunakan command berikut :
-- `wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/linux_desktop_lxde.sh -O - | bash -`
+- `wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/linux_desktop_lxde.sh && chmod 755 * && ./linux_desktop_lxde.sh`
 
 
 ## Cara menjalankan
