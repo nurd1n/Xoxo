@@ -4,15 +4,17 @@
 if [ "$(uname -m)" == "x86_64" ]; then
 	wget -q --no-check-certificate https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
 	tar xf ffmpeg-release-64bit-static.tar.xz
-	mv ffmpeg-3.2.2-64bit-static ffmpeg
+	mv ffmpeg-3.2.2-64bit-static ffmpeg-tool
 	rm -f ffmpeg-release-64bit-static.tar.xz
-	cp ffmpeg/ffmpeg ffmpeg
+	cp ffmpeg-tool/ffmpeg ffmpeg
+	cp ffmpeg-tool/ffprobe ffprobe
  else
 	wget -q --no-check-certificate https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-32bit-static.tar.xz
 	tar xf ffmpeg-release-32bit-static.tar.xz
-	mv ffmpeg-3.2.2-32bit-static ffmpeg
+	mv ffmpeg-3.2.2-32bit-static ffmpeg-tool
 	rm -f ffmpeg-release-32bit-static.tar.xz
-	cp ffmpeg/ffmpeg ffmpeg
+	cp ffmpeg-tool/ffmpeg ffmpeg
+	cp ffmpeg-tool/ffprobe ffprobe
 fi
 
 # install youtube-dl & gTTS

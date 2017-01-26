@@ -305,19 +305,19 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 read delete_option
 
 if [ "$delete_option" == "0" ]; then
-echo "cat bin/xoxotutorial.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh" | bash -
+echo "cat bin/xoxotutorial.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "1" ]; then
-echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh" | bash -
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "2" ]; then
-echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh" | bash -
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "3" ]; then
-echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh" | bash -
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "4" ]; then
@@ -325,23 +325,23 @@ eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && rm -f /tmp
                  \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" && sleep 15 && exit
 
  elif [ "$delete_option" == "5" ]; then
-echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh" | bash -
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "6" ]; then
-echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh" | bash -
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "7" ]; then
-echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh" | bash -
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 				 
  elif [ "$delete_option" == "8" ]; then
-echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh" | bash -
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh" | bash -
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
@@ -355,7 +355,9 @@ fi
 
 else
 
-echo "git stash" > update.sh
+echo "git config --global user.email \"$USER@example.com\"" > update.sh
+echo "git config --global user.name \"$USER\"" >> update.sh
+echo "git stash" >> update.sh
 echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
 echo "sed -i 's/\\r\$//' *.sh" >> update.sh
@@ -394,19 +396,19 @@ Dan jangan lupa cek apa yang terbaru di \e[1m\e[92mhttp://github.com/nurd1n/Xoxo
 read delete_option
 
 if [ "$delete_option" == "0" ]; then
-echo "cat bin/xoxotutorial.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh" | bash -
+echo "cat bin/xoxotutorial.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "1" ]; then
-echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh" | bash -
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "2" ]; then
-echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh" | bash -
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "3" ]; then
-echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh" | bash -
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "4" ]; then
@@ -414,23 +416,23 @@ eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && rm -f /tmp
                  \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" && sleep 15 && exit
 
  elif [ "$delete_option" == "5" ]; then
-echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh" | bash -
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "6" ]; then
-echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh" | bash -
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "7" ]; then
-echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh" | bash -
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 				 
  elif [ "$delete_option" == "8" ]; then
-echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh" | bash -
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh" | bash -
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
@@ -474,19 +476,19 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 read delete_option
 
 if [ "$delete_option" == "0" ]; then
-echo "cat bin/xoxotutorial.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh" | bash -
+echo "cat bin/xoxotutorial.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotutorial.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "1" ]; then
-echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh" | bash -
+echo "cat bin/xoxoplay.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplay.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "2" ]; then
-echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh" | bash -
+echo "cat bin/xoxodownload.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxodownload.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "3" ]; then
-echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh" | bash -
+echo "cat bin/xoxomp3.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "4" ]; then
@@ -494,23 +496,23 @@ eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxomp3.sh && rm -f /tmp
                  \e[1m\e[93mMaaf saat ini, menu belum tersedia\e[0m" && sleep 15 && exit
 
  elif [ "$delete_option" == "5" ]; then
-echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh" | bash -
+echo "cat bin/xoxolive.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxolive.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "6" ]; then
-echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh" | bash -
+echo "cat bin/xoxobcv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxobcv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "7" ]; then
-echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh" | bash -
+echo "cat bin/xoxoplaytv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxoplaytv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 				 
  elif [ "$delete_option" == "8" ]; then
-echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh" | bash -
+echo "cat bin/xoxorecordtv.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxorecordtv.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 				 
  elif [ "$delete_option" == "9" ]; then
-echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh" | bash -
+echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh" | bash -
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
