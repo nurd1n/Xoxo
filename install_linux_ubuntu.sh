@@ -18,7 +18,8 @@ if [ "$(uname -m)" == "x86_64" ]; then
 fi
 
 # install youtube-dl & gTTS
-sudo -H pip install --upgrade gTTS git+https://github.com/linglung/ytdl.git@master
+#sudo -H pip install --upgrade gTTS git+https://github.com/linglung/ytdl.git@master
+sudo -H pip install --upgrade gTTS youtube-dl
 #install youtube-upload
 sudo -H pip install --upgrade google-api-python-client progressbar2 git+https://github.com/tokland/youtube-upload.git@master
 

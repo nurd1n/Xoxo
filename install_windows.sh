@@ -10,10 +10,12 @@ mkdir -p text_to_speech/en
 
 # upgrade pip, setuptools, wget, curl, youtube-dl, gTTS
 unzip -q -o bin/wget.zip -d bin
-python -m pip install --upgrade pip setuptools wget curl gTTS git+https://github.com/linglung/ytdl.git@master
+python -m pip install --upgrade pip setuptools wget curl gTTS youtube-dl
+#python -m pip install --upgrade pip setuptools wget curl gTTS git+https://github.com/linglung/ytdl.git@master
 command -V wget >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade wget)"; sleep 1; }
 command -V curl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade curl)"; sleep 1; }
-command -V youtube-dl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade git+https://github.com/linglung/ytdl.git@master)"; sleep 1; }
+#command -V youtube-dl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade git+https://github.com/linglung/ytdl.git@master)"; sleep 1; }
+command -V youtube-dl >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade youtube-dl)"; sleep 1; }
 command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "$(easy_install --upgrade gTTS)"; sleep 1; }
 
 # install youtube-upload
