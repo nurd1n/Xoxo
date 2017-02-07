@@ -1,4 +1,4 @@
-# XOXO Version 1.1.1
+# XOXO Version 1.1.2
 XOXO merupakan auto bash/shell script yang bisa digunakan untuk play video, download video, download mp3, edit/render video, live stream, play/record tv, text to speech.
 
 ## Fitur

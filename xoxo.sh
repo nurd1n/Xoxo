@@ -16,12 +16,12 @@ command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "-----------------------
 bin/wget.exe -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.1')" == "1.1.1" ]; then
+if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.2')" == "1.1.2" ]; then
 
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.1\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.2\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -106,7 +106,7 @@ echo "chmod 755 *" | bash -
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.1\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.2\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -190,7 +190,7 @@ else
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.1\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.2\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -282,12 +282,12 @@ command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "-----------------------
 wget -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.1')" == "1.1.1" ]; then
+if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.2')" == "1.1.2" ]; then
 
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.1\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.2\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -374,7 +374,7 @@ echo "chmod 755 *" | bash -
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.1\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.2\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -458,7 +458,7 @@ else
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.1\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.2\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
