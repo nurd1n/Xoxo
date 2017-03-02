@@ -23,7 +23,7 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+       \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
 		\e[1m\e[96m0. Request & Tutorial\e[0m
 		\e[1m\e[96m1. Play Video\e[0m
@@ -113,7 +113,7 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+       \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
 		\e[1m\e[96m0. Request & Tutorial\e[0m
 		\e[1m\e[96m1. Play Video\e[0m
@@ -202,7 +202,7 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+       \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
 		\e[1m\e[96m0. Request & Tutorial\e[0m
 		\e[1m\e[96m1. Play Video\e[0m
@@ -304,7 +304,7 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+       \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
 		\e[1m\e[96m0. Request & Tutorial\e[0m
 		\e[1m\e[96m1. Play Video\e[0m
@@ -392,7 +392,7 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+       \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
 		\e[1m\e[96m0. Request & Tutorial\e[0m
 		\e[1m\e[96m1. Play Video\e[0m
@@ -481,7 +481,7 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-       \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
+       \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
 		\e[1m\e[96m0. Request & Tutorial\e[0m
 		\e[1m\e[96m1. Play Video\e[0m
