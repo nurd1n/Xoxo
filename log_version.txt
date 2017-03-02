@@ -1,0 +1,3 @@
+Xoxo v1.1.6
+- Penambahan fitur cut video
+- Optimalisasi script rendering video untuk akurasi key frame : -g 9 -sc_threshold 0 -force_key_frames 'expr:gte(t,n_forced*9)'

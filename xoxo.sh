@@ -16,12 +16,12 @@ command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "-----------------------
 bin/wget.exe -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.5')" == "1.1.5" ]; then
+if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.6')" == "1.1.6" ]; then
 
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.5\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -35,7 +35,8 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 		\e[1m\e[96m7. Play TV\e[0m
 		\e[1m\e[96m8. Record TV\e[0m
 		\e[1m\e[96m9. Text To Speech\e[0m
-		\e[1m\e[96m10. Exit\e[0m
+		\e[1m\e[96m10. Cut Video\e[0m
+		\e[1m\e[96m11. Exit\e[0m
 
 \e[96m(* menu belum tersedia)\e[0m
 ------------------------------------------------------------------------
@@ -85,6 +86,10 @@ echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' -e 's|del
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
+echo "cat bin/xoxocut.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh" | bash -
+eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
+
+ elif [ "$delete_option" == "11" ]; then
 
   exit
 
@@ -106,7 +111,7 @@ echo "chmod 755 *" | bash -
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.5\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -120,7 +125,8 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 		\e[1m\e[96m7. Play TV\e[0m
 		\e[1m\e[96m8. Record TV\e[0m
 		\e[1m\e[96m9. Text To Speech\e[0m
-		\e[1m\e[96m10. Exit\e[0m
+		\e[1m\e[96m10. Cut Video\e[0m
+		\e[1m\e[96m11. Exit\e[0m
 
 \e[96m(* menu belum tersedia)\e[0m
 ------------------------------------------------------------------------
@@ -174,6 +180,10 @@ echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' -e 's|del
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
+echo "cat bin/xoxocut.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh" | bash -
+eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
+
+ elif [ "$delete_option" == "11" ]; then
 
   exit
 
@@ -190,7 +200,7 @@ else
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.5\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -204,7 +214,8 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 		\e[1m\e[96m7. Play TV\e[0m
 		\e[1m\e[96m8. Record TV\e[0m
 		\e[1m\e[96m9. Text To Speech\e[0m
-		\e[1m\e[96m10. Exit\e[0m
+		\e[1m\e[96m10. Cut Video\e[0m
+		\e[1m\e[96m11. Exit\e[0m
 
 \e[96m(* menu belum tersedia)\e[0m
 ------------------------------------------------------------------------
@@ -254,6 +265,10 @@ echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' -e 's|del
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
+echo "cat bin/xoxocut.exe | xxd -r -p | sed -e 's|wget|bin/wget.exe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh" | bash -
+eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
+
+ elif [ "$delete_option" == "11" ]; then
 
   exit
 
@@ -282,12 +297,12 @@ command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "-----------------------
 wget -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.5')" == "1.1.5" ]; then
+if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.6')" == "1.1.6" ]; then
 
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.5\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -301,7 +316,8 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 		\e[1m\e[96m7. Play TV\e[0m
 		\e[1m\e[96m8. Record TV\e[0m
 		\e[1m\e[96m9. Text To Speech\e[0m
-		\e[1m\e[96m10. Exit\e[0m
+		\e[1m\e[96m10. Cut Video\e[0m
+		\e[1m\e[96m11. Exit\e[0m
 
 \e[96m(* menu belum tersedia)\e[0m
 ------------------------------------------------------------------------
@@ -374,7 +390,7 @@ echo "chmod 755 *" | bash -
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.5\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -388,7 +404,8 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 		\e[1m\e[96m7. Play TV\e[0m
 		\e[1m\e[96m8. Record TV\e[0m
 		\e[1m\e[96m9. Text To Speech\e[0m
-		\e[1m\e[96m10. Exit\e[0m
+		\e[1m\e[96m10. Cut Video\e[0m
+		\e[1m\e[96m11. Exit\e[0m
 
 \e[96m(* menu belum tersedia)\e[0m
 ------------------------------------------------------------------------
@@ -442,6 +459,10 @@ echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
+echo "cat bin/xoxocut.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh" | bash -
+eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
+
+ elif [ "$delete_option" == "11" ]; then
 
   exit
 
@@ -458,7 +479,7 @@ else
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.5\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.6\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber dan spammer, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -472,7 +493,8 @@ echo -n -e "\e[1m\e[93m$(date)\e[0m
 		\e[1m\e[96m7. Play TV\e[0m
 		\e[1m\e[96m8. Record TV\e[0m
 		\e[1m\e[96m9. Text To Speech\e[0m
-		\e[1m\e[96m10. Exit\e[0m
+		\e[1m\e[96m10. Cut Video\e[0m
+		\e[1m\e[96m11. Exit\e[0m
 
 \e[96m(* menu belum tersedia)\e[0m
 ------------------------------------------------------------------------
@@ -522,6 +544,10 @@ echo "cat bin/xoxotts.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's
 eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxotts.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
 
  elif [ "$delete_option" == "10" ]; then
+echo "cat bin/xoxocut.exe | xxd -r -p | sed -e 's|ffmpeg -y|./ffmpeg -y|g' -e 's|ffprobe|./ffprobe|g' -e 's|delete|delete$(cat /tmp/xoxoidnumber)|g' > /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && chmod 755 /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh" | bash -
+eval $(echo "source  /tmp/delete$(cat /tmp/xoxoidnumber)xoxocut.sh && rm -f /tmp/delete$(cat /tmp/xoxoidnumber)*")
+
+ elif [ "$delete_option" == "11" ]; then
 
   exit
 
