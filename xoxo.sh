@@ -380,8 +380,9 @@ fi
 
 else
 
-echo "git config --global user.email \"$USER@example.com\"" > update.sh
-echo "git config --global user.name \"$USER\"" >> update.sh
+deletenameuser=`names`
+echo "git config --global user.email \"$(echo $deletenameuser | sed 's| |_|g' | tr A-Z a-z)_$(shuf -i 2000-65000 -n 1)@gmail.com\"" > update.sh
+echo "git config --global user.name \"$deletenameuser\"" >> update.sh
 echo "git stash" >> update.sh
 echo "git pull" >> update.sh
 echo "git submodule update --init --recursive" >> update.sh
