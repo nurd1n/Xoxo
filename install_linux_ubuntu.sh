@@ -17,9 +17,9 @@ if [ "$(uname -m)" == "x86_64" ]; then
 	cp ffmpeg-tool/ffprobe ffprobe
 fi
 
-# install youtube-dl & gTTS
+# install youtube-dl, gTTS, names
 #sudo -H pip install --upgrade gTTS git+https://github.com/linglung/ytdl.git@master
-sudo -H pip install --upgrade gTTS youtube-dl
+sudo -H pip install --upgrade gTTS youtube-dl names
 #install youtube-upload
 sudo -H pip install --upgrade google-api-python-client progressbar2 git+https://github.com/tokland/youtube-upload.git@master
 
