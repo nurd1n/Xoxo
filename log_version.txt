@@ -1,2 +1,7 @@
+Xoxo v1.1.7
+- Download youtube maksimal 480p, belum bisa HD
+- Penggantian -profile:v main -level 3.1 menjadi -profile:v high -level 4.0
+- Xoxodownload : tambah option --buffer-size 16K
+
 Xoxo v1.1.6
 - Penambahan fitur cut video
