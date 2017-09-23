@@ -34,17 +34,17 @@ kemudian clone xoxo di folder yang diinginkan
 ## Video panduan
 - Install git bash, python 3.6.0, ffmpeg, clone xoxo
 
-[![Install git bash, python 3.6.0, ffmpeg, clone xoxo](http://img.youtube.com/vi/U1dOJsD0gWY/0.jpg)](http://www.youtube.com/watch?v=U1dOJsD0gWY)
+[![Install git bash, python 3.6.0, ffmpeg, clone xoxo](http://img.youtube.com/vi/sBtYMh4usN8/0.jpg)](http://www.youtube.com/watch?v=sBtYMh4usN8)
 
 
 - Jika python 3.6.0 tidak dapat diinstall, ganti ke versi 3.4.4, berikut panduannya
 
-[![Install python 3.4.4, ffmpeg, clone xoxo](http://img.youtube.com/vi/Myp9nNOcHIc/0.jpg)](http://www.youtube.com/watch?v=Myp9nNOcHIc)
+[![Install python 3.4.4, ffmpeg, clone xoxo](http://img.youtube.com/vi/T3px6iqp3xs/0.jpg)](http://www.youtube.com/watch?v=T3px6iqp3xs)
 
 
 - Git clone xoxo
 
-[![Git clone xoxo](http://img.youtube.com/vi/iPdawz6GqAY/0.jpg)](http://www.youtube.com/watch?v=iPdawz6GqAY)
+[![Git clone xoxo](http://img.youtube.com/vi/mfFxlSoNWPQ/0.jpg)](http://www.youtube.com/watch?v=mfFxlSoNWPQ)
 
 ## Instalasi tambahan
 - Windows : jalankan file `install_windows.sh`
