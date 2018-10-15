@@ -9,7 +9,7 @@ bin/wget.exe -q --no-check-certificate https://github.com/nurd1n/underground/raw
 command -V python >/dev/null 2>&1 || { echo -e >&2 "------------------------------------------------------------------------\n------------------------------------------------------------------------\nInstall \e[1m\e[92mpython\e[0m dulu ya, sebelum menjalankan xoxo\nDan pastikan setting PATH python sudah benar\n------------------------------------------------------------------------\n------------------------------------------------------------------------"; sleep 1000; }
 command -V ffmpeg >/dev/null 2>&1 || { echo -e >&2 "------------------------------------------------------------------------\n------------------------------------------------------------------------\nInstall \e[1m\e[92mffmpeg\e[0m dulu ya, sebelum menjalankan xoxo\nDan pastikan setting PATH ffmpeg sudah benar\n------------------------------------------------------------------------\n------------------------------------------------------------------------"; sleep 1000; }
 command -V youtube-dl >/dev/null 2>&1 || { echo -e >&2 "------------------------------------------------------------------------\n------------------------------------------------------------------------\nInstall \e[1m\e[92myoutube-dl\e[0m dulu ya, sebelum menjalankan xoxo\nCaranya, buka git bash kemudian masukkan : \e[1m\e[93mpip install --upgrade youtube-dl\e[0m\nJika masih gagal, masukkan : \e[1m\e[93measy_install --upgrade youtube-dl\e[0m\n------------------------------------------------------------------------\n------------------------------------------------------------------------"; sleep 1000; }
-command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "------------------------------------------------------------------------\n------------------------------------------------------------------------\nInstall \e[1m\e[92mgTTS\e[0m dulu ya, sebelum menjalankan xoxo\nCaranya, buka git bash kemudian masukkan : \e[1m\e[93mpip install --upgrade gTTS\e[0m\nJika masih gagal, masukkan : \e[1m\e[93measy_install --upgrade gTTS\e[0m\n------------------------------------------------------------------------\n------------------------------------------------------------------------"; sleep 1000; }
+command -V gtts-cli >/dev/null 2>&1 || { echo -e >&2 "------------------------------------------------------------------------\n------------------------------------------------------------------------\nInstall \e[1m\e[92mgTTS\e[0m dulu ya, sebelum menjalankan xoxo\nCaranya, buka git bash kemudian masukkan : \e[1m\e[93mpip install --upgrade gTTS\e[0m\nJika masih gagal, masukkan : \e[1m\e[93measy_install --upgrade gTTS\e[0m\n------------------------------------------------------------------------\n------------------------------------------------------------------------"; sleep 1000; }
 
 # windows
 # check online/offline
@@ -21,7 +21,7 @@ if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.7\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.8\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -114,7 +114,7 @@ echo "chmod 755 *" | bash -
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.7\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.8\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -203,7 +203,7 @@ else
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.7\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.8\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -305,7 +305,7 @@ if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.7\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.8\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -394,7 +394,7 @@ echo "chmod 755 *" | bash -
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.7\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.8\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
@@ -483,7 +483,7 @@ else
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~                          \e[1m\e[96mXOXO Version 1.1.7\e[0m                         ~
+~                          \e[1m\e[96mXOXO Version 1.1.8\e[0m                         ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        \e[1m\e[92mHai, youtuber, silahkan pilih menu di bawah :\e[0m
 ----------------------------------------------------------~~~~~~~~~~~~~~
