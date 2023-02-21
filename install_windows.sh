@@ -39,4 +39,4 @@ echo -e "
 
 
 "
-sleep 300
+sleep 20
