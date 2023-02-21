@@ -16,7 +16,7 @@ command -V gtts-cli >/dev/null 2>&1 || { echo -e >&2 "--------------------------
 bin/wget.exe -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.7')" == "1.1.7" ]; then
+if [ "$(bin/wget.exe -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.8')" == "1.1.8" ]; then
 
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
@@ -300,7 +300,7 @@ command -V gtts-cli.py >/dev/null 2>&1 || { echo -e >&2 "-----------------------
 wget -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
 # check versi
-if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.7')" == "1.1.7" ]; then
+if [ "$(wget -q --no-check-certificate https://raw.githubusercontent.com/nurd1n/Xoxo/master/bin/xoxoversion -O - | grep '1.1.8')" == "1.1.8" ]; then
 
 clear
 echo -n -e "\e[1m\e[93m$(date)\e[0m
